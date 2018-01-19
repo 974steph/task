@@ -1,0 +1,25 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  changelog
+:page-liquid:
+:icons:
+:imagesdir: ../images
+
+
+
+== Änderungsprotokoll
+'''
+.version : 04 (janvier 2018)
+* ajout des fonctions sunset et sunrise
+
+.Version : 03 (6. Dezember 2017)
+* correction timeline
+
+.Version : 02 (Dez. 2017)
+* ajout foncion dupliquer
+* ajout configuration de la couleur de fonds
+
+.Version : 01 (November 2017)
+* erste Version
+

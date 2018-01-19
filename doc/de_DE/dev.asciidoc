@@ -1,0 +1,10 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  guide
+:page-liquid:
+:icons:
+:imagesdir: ../images
+== Entwickler
+'''
+974steph

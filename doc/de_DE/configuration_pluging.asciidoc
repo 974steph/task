@@ -1,0 +1,17 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  guide
+:page-liquid:
+:icons:
+:imagesdir: ../images
+== Plugin Konfiguration
+'''
+Apres le  telechargement du plugin, il vous suffit juste d'activer celui-ci, il n'y a aucune configuration a ce niveau.
+
+Pour calculer l'heure de levé et de couché du soleil, le plugin utilise votre position gps.
+Par default, le plugin utilise la position de paris. Vous pouvez modifier cette coordonnée.
+la page <https://www.coordonnees-gps.fr> permet de retrouver facillement une coordonnée GPS à partir d'une adresse.
+
+
+image::plugin.png[]

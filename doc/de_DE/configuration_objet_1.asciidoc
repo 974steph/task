@@ -1,0 +1,117 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  guide
+:page-liquid:
+:icons:
+:imagesdir: ../images
+
+
+
+== ssaTask Konfiguration
+'''
+La configuration des équipements "ssaTask" est accessible à partir du menu plugin :
+il vous suffit de cliquer sur le bouton "ajouter" ou sur un équipement déjà présent.
+
+
+image::ajout.png[]
+
+
+La configuration des Equipements "ssaTask" s'effectue par en trois onglets :
+
+* Konfiguration
+* tâches
+* commandes
+
+
+=== Onglet "Configuration"
+'''
+Cette  première étape, commune aux plugins Jeedom, consiste au réglage des paramètres généraux du "ssaTask"
+
+image::plugin_configuration.png[]
+
+
+
+[NOTE]
+Cette étape permet de définir, l'objet parent, l'activation et la visibilité du "ssaTAsk", ainsi que les informations habituelles.
+
+
+Cet onglet offre aussi la possibilité de définir le comportement visuel du plugin grace aux cas à cocher :
+
+* affichage date
+* affichage historique
+* couleur de fonds
+
+
+
+=== Onglet "Tâches"
+'''
+Cet onglet permet la programation  de vos différentes commandes.
+
+
+image::plugin_tache.png[]
+
+
+
+[TIP]
+Imaginons que vous voulez allumer la lumiere tous les matin à 7 heures et ouvrir les volets à 7 heures trente, rien de plus simple.
+
+
+
+[NOTE]
+Pour créer une tâche, il faut cliquer sur le bouton "Créer une Tâche".  Cela ajoute alors une tâche vide dans la liste des tâches.
+
+
+
+
+==== Konfiguration
+
+
+Rien de plus simple. commencez par donner un nom à votre tâche et fixez les différents paramètres
+
+==== Heure
+
+Il s'agit ici de definir l'heure d'exéution de votre commande.
+L'heure peut etre definit de manire automatique avec les boutons sunset et sunrise (l'heure correspondant a sunrise et sunset est calculé tous les jours à 1 heure du matin).
+
+
+image::heure.png[]
+[TIP]
+Vous pouvez utilisez les boutons  pour diminuer l'heure et les minutes ou les entrer directement à l'aide de votre clavier.
+
+[TIP]
+les boutons "sunrise" et "sunset" permettent d'indiquer au plugin d'exécuter la commande au levé ou au couché du soleil.
+
+==== Commande
+[NOTE]
+il s'agit dans cette section de configurer les commandes qui devrons etre executés.
+
+[TIP]
+Pour configurer une commande, il faut utiliser le bouton "Rechercher un équipement".
+Les commandes disponible sont des commandes de type "Action".
+
+
+[TIP]
+Dans le cas ou vous voulez exécuter plusieurs actions il faut indiquer les differentes commandes  avec le séparateur "&&". +
+Dans mon exemple, j'ai deux radiateurs et j'indique donc : +
+....
+Commande ON :#[developpement][radiateur1][On]#&&#[developpement][radiateur2][On]#
+
+....
+
+==== Jour d'application
+
+il s'agit ici d'un planning d'application de la tâche. Vous pouvez choisir d'executer votre commande le lundi, le samedi ou les jours fériés.
+
+
+
+
+
+=== Onglet "Commandes"
+
+Le plugin propose, par defaut, 5 commandes.
+Vous ne pouvez pas modifier ces commandes.
+Elles permettent d'interagir avec l'IHM.
+
+[NOTE]
+les commandes  peuvent etres appelées à partir de vos scénarios ou autre modules. :

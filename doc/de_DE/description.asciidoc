@@ -1,0 +1,26 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  guide
+:page-liquid:
+:icons:
+:imagesdir: ../images
+== Beschreibung
+'''
+Ce plugin propose d'automatiser les tâches que vous effectuez régulièrement.
+Apres avoir planifié les tâches (heure et jour de la semaine), elle seront alors exécutées automatiquement et vous pourrez les suivres dans la Timeline du plugin.
+
+il sera alors aisé de programmer l'ouverture de vos volets roulant tous les jours à 7h du matin sauf les WE  et jours féries.
+et cela juste en deux clics.
+
+
+'''
+.vue desktop
+image::desktop_all.png[height=150,width=150,role="left"]
+.vue mobile
+image::desktop_date.png[height=150,width=150,role="left"]
+.vue mobile
+image::desktop_histo.png[height=150,width=150,role="left"]
+'''
+.historique
+image::desktop_stat.png[height=300,width=450,role="center"]

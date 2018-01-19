@@ -1,0 +1,16 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  guide
+:page-liquid:
+:icons:
+:imagesdir: ../images
+== FAQ
+'''
+. maj plugin
+* lors de la mise à jour vers la version 04, il est conseillé d'effectuer une desactivation puis une reactivation du plugin
+
+. calcul sunset & sunrise
+* le calcul du levé et couché de soleil est effectué à 1 heure du matin. Pour les nouveaux ssaTask,
+* il se peut que le calcul n'ai pas encore ete effectué. Le plugin utilise alors une heure par defaut.
+* les heures seront mis à jour des le prochain calcul

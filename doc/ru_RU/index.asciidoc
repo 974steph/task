@@ -1,0 +1,26 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  index
+:page-liquid:
+:icons:
+
+
+
+include::description.asciidoc[]
+
+include::installation.asciidoc[]
+
+include::configuration_pluging.asciidoc[]
+
+include::configuration_objet_1.asciidoc[]
+
+include::guide.asciidoc[]
+
+include::faq.asciidoc[]
+
+include::dev.asciidoc[]
+
+include::changelog.asciidoc[]
+
+include::roadmap.asciidoc[]
