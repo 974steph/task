@@ -1,0 +1,76 @@
+
+<style type="text/css">
+.ssaTask-container-color_#id# {
+  background: #DISPLAY_COLOR#;
+  
+}
+        
+</style> 
+
+<div   class="eqLogic eqLogic-widget  ssaTask-container ssaTask-container-color_#id#"  data-category="#category#" data-eqLogic_id="#id#" data-version="dashboard">
+    <link rel="stylesheet" href="plugins/ssaTask/core/template/dashboard/css/task.css" />
+    
+
+
+ 
+    
+    <header>
+        <center> <span style="font-size : 1.2em;"><a href="#eqLink#">#name#</a></span><br/></center>
+       <div id="ssaTaskDate" class="#DISPLAY_DATE#">
+            <div class="day">#day#</div>
+            <div class="month">#month#</div>
+       </div>
+        <div class="ssaTaskButton">
+            <div class="ssaTaskButtonLeft">
+                <a  class="ssaTask-button #On_actif#" onclick="jeedom.cmd.execute({id: #cmd_on#});">On</a>
+            </div>
+            <div class="ssaTaskButtonRight">
+                <a  class="ssaTask-button #Off_actif#" onclick="jeedom.cmd.execute({id: #cmd_off#});">Off</a>
+            </div>
+        </div>
+    </header>
+
+    <table class="ssaTaskContent #DISPLAY_HISTO#">
+        
+      
+        <tbody>
+
+            <tr>
+              <td class="titre">derniere tâche</td>
+              <td >#lastCMD#</td>
+            </tr>
+            <tr>
+              <td class="titre">prochaine tâche</td>
+              <td >#nextCMD#</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+
+            
+            <tr class="ssaTaskResume"  >
+                <td  colspan="2" id="ssaHisto_#id#"><strong class="tooltips" title="date #collectDate#" style="font-size:0.8em;">historique</strong></td>
+                
+            </tr>
+        </tfoot>
+    </table>
+
+   
+   
+ <!--
+    <div class="ssaTaskResume" id="ssaHisto_#id#">
+        <center><strong class="tooltips" title="date #collectDate#" style="font-size:0.8em;">historique</strong></center>
+    </div> 
+-->  
+    <script>
+        $( document ).ready(function() {
+            $('#ssaHisto_#id#').click(function() {
+                $('#md_modal').dialog({title: "Historique"});
+                $('#md_modal').load('index.php?v=d&plugin=ssaTask&modal=modal.ssaTask&ssa=#history#').dialog('open');
+           
+            });
+        });
+    </script>  
+
+</div> <!-- end container -->
+   

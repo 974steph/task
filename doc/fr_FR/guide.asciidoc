@@ -1,0 +1,104 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  guide
+:page-liquid:
+:icons:
+
+
+== Mode d'emploi du ssaTask.
+'''
+
+L'utilisation du ssaTask est simple et intuitif. Le composant  dispose de deux boutons "on" et "off". +
+Ces dex boutons permettent d'activer et de desactiver le planning.
+
+:imagesdir: ../images
+
+.Widget 'Desktop'
+[cols="2,3"]
+|===
+
+a|.vue desktop
+image::desktop_detail.png[height=300,width=500,role="left"]
+a|
+[guide]
+.guide
+
+.... Date : affichage de la date (peut etre desactivé)
+.... Off : bouton permettant de suspendre le planning
+.... On : bouton permettant d'activer le planning
+.... derniere commande :  affichage du nom de la derniere commande éxecutée
+.... prochaine commandee : affichage du nom de la prochaine commande (limité à la journée)
+.... Historique : permet d'accéder au graphique statistique (timeline).
+
+
+|===
+
+
+
+.Statistique
+[cols="4,1"]
+|===
+
+a|.Statistique
+image::desktop_stat.png[height=300,width=800,role="left"]
+a|
+[guide]
+.guide
+
+.... liste des commandes exécutées
+.... date courante
+
+
+|===
+
+
+
+
+.Vue possible
+[cols="2,2"]
+
+|===
+
+a|
+.normal
+[caption=Figure 1:]
+image::desktop_all.png[role="left"]
+a|
+[guide]
+
+Il s'agit ici de la vue nominale
+
+
+a|
+.historique desactivé
+[caption=Figure 2:]
+image::desktop_date.png[role="left"]
+a|
+[guide]
+
+cette vue est disponible lorsque +
+la case à cocher "historique" est desactivée
+
+a|
+.date désactivée
+[caption=Figure 3:]
+image::desktop_histo.png[role="left"]
+a|
+[guide]
+
+cette vue est disponible lorsque +
+la case à cocher "date" est desactivée
+
+a|
+.minimale
+[caption=Figure 4:]
+image::desktop_button.png[role="left"]
+a|
+[guide]
+
+cette vue est disponible lorsque +
+les cases à cocher "historique" et "date" sont  desactivée
+|===
+
+

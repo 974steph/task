@@ -1,0 +1,45 @@
+
+<div   class="eqLogic eqLogic-widget"  data-category="#category#" data-eqLogic_id="#id#" data-version="mobile">
+    <link rel="stylesheet" href="plugins/ssaTask/core/template/mobile/css/task.css" />
+     
+
+
+
+ 
+    
+    <header>
+        <center> <span style="font-size : 1.2em;">#name#</span><br/></center>
+       
+        <div class="ssaTaskButton">
+            <div class="ssaTaskButtonLeft">
+                <a  class="ssaTask-button #On_actif#" onclick="jeedom.cmd.execute({id: #cmd_on#});">On</a>
+            </div>
+            <div class="ssaTaskButtonRight">
+                <a  class="ssaTask-button #Off_actif#" onclick="jeedom.cmd.execute({id: #cmd_off#});">Off</a>
+            </div>
+        </div>
+    </header>
+
+    <table class="ssaTaskContent">
+        
+      
+        <tbody>
+
+            <tr>
+              <td class="titre">derniere tâche</td>
+              
+            </tr>
+            <tr>
+              
+              <td >#lastCMD#</td>
+            </tr>
+            
+        </tbody>
+        
+    </table>
+
+   
+ 
+
+</div> <!-- end container -->
+   

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+    <id>ssaTask</id>
+    <name>ssaTask</name>
+    <licence>AGPL</licence>
+    <author>Stephane SAUTRON</author>
+    <description>Plugin permettant de mettre en place un </description>
+    <category>schedule</category>
+    <require>3.0</require>
+    <installation>Aucune</installation>
+</info>
+

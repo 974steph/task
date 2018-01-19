@@ -1,0 +1,12 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  guide
+:page-liquid:
+:icons:
+:imagesdir: ../images
+== Installation
+'''
+
+Il n'y a pas d'actions particuliere lors  de l'installation du plugin.
+
